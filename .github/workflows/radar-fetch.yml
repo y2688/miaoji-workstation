@@ -1,0 +1,22 @@
+name: Radar Data Fetch
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/radar-fetch.js
+      - name: Commit and push radar data
+        run: |
+          git config user.name "MiaoJi Radar Bot"
+          git config user.email "radar@miaoji.app"
+          git add public/data/radar/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: radar data update $(date +%F-%H)" && git push)

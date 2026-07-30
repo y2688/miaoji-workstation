@@ -3,7 +3,7 @@ import Sidebar from "./Sidebar";
 import TopNav from "./TopNav";
 import BottomNav from "./BottomNav";
 
-type Page = "home" | "plan" | "quote" | "study" | "quiz" | "topics" | "copywriting" | "favorites" | "checkin";
+type Page = "home" | "plan" | "quote" | "study" | "quiz" | "topics" | "copywriting" | "favorites" | "checkin" | "radar";
 
 interface Props {
   children: ReactNode;

@@ -9,6 +9,7 @@ import TopicIdeas from "./components/pages/TopicIdeas";
 import Copywriting from "./components/pages/Copywriting";
 import Favorites from "./components/pages/Favorites";
 import Checkin from "./components/pages/Checkin";
+import Radar from "./components/pages/Radar";
 
 type Page =
   | "home"
@@ -19,7 +20,8 @@ type Page =
   | "topics"
   | "copywriting"
   | "favorites"
-  | "checkin";
+  | "checkin"
+  | "radar";
 
 export default function App() {
   const [page, setPage] = useState<Page>("home");
@@ -35,6 +37,7 @@ export default function App() {
       case "copywriting": return <Copywriting />;
       case "favorites": return <Favorites />;
       case "checkin": return <Checkin />;
+      case "radar": return <Radar />;
       default: return <Home onNavigate={setPage} />;
     }
   };

@@ -6,14 +6,16 @@ const config: Config = {
     extend: {
       colors: {
         pink: "#FF85A2",
-        "light-pink": "#FFD1DC",
-        "bg-pink": "#FFF0F5",
-        ribbon: "#FF3B6E",
+        "light-pink": "#FFB5C5",
+        "bg-pink": "#FFF5F7",
+        ribbon: "#FF2442",
         mint: "#B8E6C8",
         lavender: "#E8D5F5",
         "text-dark": "#4A4A4A",
         "text-gray": "#9E9E9E",
         "border-pink": "#FFD1DC",
+        "kitty-yellow": "#FFD700",
+        "kitty-white": "#FFFFFF",
       },
       borderRadius: {
         card: "20px",
@@ -21,6 +23,8 @@ const config: Config = {
       },
       boxShadow: {
         pink: "0 4px 16px rgba(255,133,162,0.2)",
+        kitty: "0 4px 20px rgba(255,130,162,0.25)",
+        soft: "0 2px 8px rgba(255,130,162,0.12)",
       },
     },
   },

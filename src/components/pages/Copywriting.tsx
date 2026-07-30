@@ -45,8 +45,8 @@ export default function Copywriting() {
 
   return (
     <div className="space-y-4 animate-fade-in-up">
-      <h2 className="text-xl font-bold text-ribbon">✍️ 文案素材</h2>
-      <p className="text-sm text-text-gray">已适配四大平台的文案，复制即用</p>
+      <h2 className="text-xl font-bold text-ribbon">✍️ 文案素材 🎀</h2>
+      <p className="text-sm text-text-gray">已适配四大平台的文案，复制即用，轻松创作 🐱</p>
 
       <div className="card-pink p-3 text-xs text-text-gray flex items-start gap-2">
         <span>⚠️</span>

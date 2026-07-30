@@ -1,3 +1,5 @@
+import KittyAvatar from "./kitty/KittyAvatar";
+
 interface Props {
   onMenuClick: () => void;
 }
@@ -18,7 +20,8 @@ export default function TopNav({ onMenuClick }: Props) {
           </svg>
         </button>
         <span className="text-lg md:text-xl font-bold text-ribbon">
-          🌸 妙锦工作台
+          <KittyAvatar size={28} className="inline-block mr-1 align-middle" />
+          妙锦工作台
         </span>
       </div>
       <div className="text-sm text-text-gray">
