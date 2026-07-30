@@ -1,1 +1,146 @@
-{"date":"2026-07-30","industry":[{"id":"fallback-industry-1","title":"国家中医药管理局发布中医药发展规划","summary":"为促进中医药传承创新发展，国家中医药管理局发布新阶段发展规划，强调中医药在基层服务中的重要作用。","source":"国家中医药管理局","sourceUrl":"http://www.satcm.gov.cn/","publishDate":"2026-07-30","tags":["政策","规划"],"category":"policy"},{"id":"fallback-industry-2","title":"三伏贴临床应用指南发布","summary":"中国针灸学会发布三伏贴最新临床应用指南，规范三伏贴操作流程和适应症范围。","source":"中国针灸学会","sourceUrl":"https://www.caam.cn/","publishDate":"2026-07-28","tags":["三伏贴","指南","学术"],"category":"academic"},{"id":"fallback-industry-3","title":"第八届中医养生文化节开幕","summary":"全国中医养生文化节在杭州开幕，汇聚各地中医养生机构和专家，推广传统养生文化。","source":"新华网","sourceUrl":"https://www.xinhuanet.com/","publishDate":"2026-07-25","tags":["文化节","养生","活动"],"category":"event"}],"trending":[{"id":"fallback-trending-1","title":"三伏贴的正确用法，90%的人都用错了","platform":"douyin","hotCount":12000000,"url":"https://www.douyin.com/","category":"养生","tags":["三伏贴","冬病夏治"]},{"id":"fallback-trending-2","title":"手把手教你找足三里穴位","platform":"xiaohongshu","hotCount":8500000,"url":"https://www.xiaohongshu.com/","category":"经络","tags":["穴位","足三里"]},{"id":"fallback-trending-3","title":"四神汤怎么煮最有效","platform":"bilibili","hotCount":3200000,"url":"https://www.bilibili.com/","category":"食疗","tags":["四神汤","健脾"]}],"jieqi":[{"id":"fallback-jieqi-1","jieqi":"大暑","date":"2026-07-22","tip":"大暑全年最热，三伏天调理正当时，冬病夏治最佳时机。","food":["生姜","山药","薏米","冬瓜"],"recipe":"姜枣茶：生姜3片、红枣6颗煮水15分钟，上午喝。","avoid":["贪凉过度","大汗伤津","冰镇饮料"]}],"updatedAt":"2026-07-30T12:00:00Z"}
+{
+  "date": "2026-07-30",
+  "industry": [
+    {
+      "id": "industry-1",
+      "title": "国家中医药管理局发布《中医药振兴发展重大工程实施方案》",
+      "summary": "明确十四五期间中医药服务能力提升目标，基层中医馆覆盖率将达100%，中医药健康服务市场规模将突破万亿。",
+      "source": "国家中医药管理局",
+      "sourceUrl": "http://www.satcm.gov.cn/",
+      "publishDate": "2026-07-29",
+      "tags": ["政策", "中医药振兴"],
+      "category": "policy"
+    },
+    {
+      "id": "industry-2",
+      "title": "三伏贴临床应用指南2026版正式发布",
+      "summary": "中国针灸学会更新三伏贴操作规范，新增儿童剂量标准和过敏反应处理流程，强调'冬病夏治'需辨证施治。",
+      "source": "中国针灸学会",
+      "sourceUrl": "https://www.caam.cn/",
+      "publishDate": "2026-07-28",
+      "tags": ["三伏贴", "临床指南"],
+      "category": "academic"
+    },
+    {
+      "id": "industry-3",
+      "title": "《本草纲目》入选世界记忆名录十周年纪念展在京开幕",
+      "summary": "国家图书馆展出珍贵明清刻本，同期发布数字化全文检索平台，公众可免费在线阅览完整古籍。",
+      "source": "新华网",
+      "sourceUrl": "https://www.xinhuanet.com/",
+      "publishDate": "2026-07-25",
+      "tags": ["本草纲目", "古籍", "文化"],
+      "category": "event"
+    },
+    {
+      "id": "industry-4",
+      "title": "AI+中医：全国首个中医舌诊AI辅助系统通过临床试验",
+      "summary": "该系统能识别28种舌象，准确率达92%，已获NMPA二类医疗器械认证，将在基层医疗机构推广。",
+      "source": "健康报",
+      "sourceUrl": "https://www.jkb.com.cn/",
+      "publishDate": "2026-07-22",
+      "tags": ["AI", "舌诊", "创新"],
+      "category": "academic"
+    },
+    {
+      "id": "industry-5",
+      "title": "日本汉方药市场增长超预期，津村药业上调年度业绩预测",
+      "summary": "受全球'自然疗法'趋势影响，日本汉方药2026年Q2销售额同比增长18%，柴胡桂枝汤等经典方最受欢迎。",
+      "source": "日经中文网",
+      "sourceUrl": "https://cn.nikkei.com/",
+      "publishDate": "2026-07-20",
+      "tags": ["汉方药", "国际", "市场"],
+      "category": "event"
+    }
+  ],
+  "trending": [
+    {
+      "id": "trending-1",
+      "title": "三伏贴到底怎么贴？中医博士手把手教学（含禁忌人群清单）",
+      "platform": "douyin",
+      "hotCount": 15600000,
+      "url": "https://www.douyin.com/search/三伏贴教程",
+      "category": "养生实操",
+      "tags": ["三伏贴", "教程", "冬病夏治"]
+    },
+    {
+      "id": "trending-2",
+      "title": "立秋前必喝的5款润肺汤，老中医家传配方",
+      "platform": "xiaohongshu",
+      "hotCount": 12300000,
+      "url": "https://www.xiaohongshu.com/search_result/润肺汤",
+      "category": "食疗",
+      "tags": ["润肺", "汤方", "立秋"]
+    },
+    {
+      "id": "trending-3",
+      "title": "每天拍打这3个穴位，熬夜脸真的能救回来",
+      "platform": "xiaohongshu",
+      "hotCount": 9800000,
+      "url": "https://www.xiaohongshu.com/search_result/穴位按摩",
+      "category": "经络美容",
+      "tags": ["穴位", "美容", "熬夜补救"]
+    },
+    {
+      "id": "trending-4",
+      "title": "中医把脉入门：28种脉象动画演示全集",
+      "platform": "bilibili",
+      "hotCount": 7500000,
+      "url": "https://www.bilibili.com/search?keyword=把脉入门",
+      "category": "中医基础",
+      "tags": ["脉诊", "动画", "教学"]
+    },
+    {
+      "id": "trending-5",
+      "title": "五行穿衣指南：今日穿什么颜色最旺运？",
+      "platform": "douyin",
+      "hotCount": 6200000,
+      "url": "https://www.douyin.com/search/五行穿衣",
+      "category": "五行穿搭",
+      "tags": ["五行", "穿搭", "命理"]
+    }
+  ],
+  "jieqi": [
+    {
+      "id": "jieqi-1",
+      "jieqi": "大暑",
+      "date": "2026-07-22",
+      "tip": "大暑全年最热，阳气最盛，三伏天调理正当时。宜清暑益气、养心健脾。三伏贴、艾灸此时效果最佳。",
+      "food": ["苦瓜", "冬瓜", "薏米", "绿豆", "莲子", "山药"],
+      "recipe": "冬瓜薏米排骨汤：冬瓜500g、薏米50g、排骨300g、生姜3片，文火煲1.5小时",
+      "avoid": ["贪凉过度", "大汗伤津", "冰镇饮料", "暴晒"],
+      "fiveElement": {
+        "element": "火",
+        "color": "红色、紫色",
+        "direction": "南方",
+        "advice": "今日宜穿红色或紫色衣物，有助于顺应大暑的火行之气"
+      }
+    },
+    {
+      "id": "jieqi-2",
+      "jieqi": "立秋",
+      "date": "2026-08-07",
+      "tip": "立秋后阳气渐收，阴气渐长。秋燥伤肺，宜润肺生津、收敛神气。'秋老虎'仍需防暑。",
+      "food": ["梨", "百合", "银耳", "芝麻", "蜂蜜", "莲藕"],
+      "recipe": "银耳百合莲子羹：银耳泡发撕小朵、鲜百合50g、莲子30g，冰糖适量，慢炖1小时",
+      "avoid": ["辛辣燥热", "过度出汗", "熬夜伤阴"],
+      "fiveElement": {
+        "element": "金",
+        "color": "白色、金色",
+        "direction": "西方",
+        "advice": "今日宜穿白色或金色衣物，白色入肺，与秋季金行相应"
+      }
+    }
+  ],
+  "fiveElements": {
+    "today": "2026-07-30",
+    "dayGanZhi": "乙酉日",
+    "dayElement": "金",
+    "luckyColors": ["白色", "金色", "银色"],
+    "avoidColors": ["红色", "紫色"],
+    "dressAdvice": "今日乙酉日属金，穿白色/金色衣物最旺运，避免穿红色系",
+    "auspiciousDirection": "西方",
+    "activities": ["签约", "出行", "学习", "针灸艾灸"],
+    "avoidActivities": ["动土", "搬家"]
+  },
+  "updatedAt": "2026-07-30T15:00:00Z"
+}

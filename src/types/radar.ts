@@ -27,9 +27,27 @@ export interface RadarJieqiItem {
   food: string[];
   recipe: string;
   avoid: string[];
+  fiveElement?: {
+    element: string;
+    color: string;
+    direction: string;
+    advice: string;
+  };
 }
 
-export type RadarCategory = "all" | "industry" | "trending" | "jieqi";
+export interface FiveElementsDaily {
+  today: string;
+  dayGanZhi: string;
+  dayElement: string;
+  luckyColors: string[];
+  avoidColors: string[];
+  dressAdvice: string;
+  auspiciousDirection: string;
+  activities: string[];
+  avoidActivities: string[];
+}
+
+export type RadarCategory = "all" | "industry" | "trending" | "jieqi" | "five-elements";
 
 export type RadarViewMode = "card" | "timeline";
 
@@ -38,5 +56,6 @@ export interface RadarData {
   industry: RadarIndustryItem[];
   trending: RadarTrendingItem[];
   jieqi: RadarJieqiItem[];
+  fiveElements?: FiveElementsDaily;
   updatedAt: string;
 }
