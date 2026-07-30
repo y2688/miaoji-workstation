@@ -4,10 +4,11 @@
 
 :root {
   --color-pink: #FF85A2;
-  --color-light-pink: #FFD1DC;
-  --color-bg-pink: #FFF0F5;
+  --color-light-pink: #FFB5C5;
+  --color-border-pink: #FFD1DC;
+  --color-bg-pink: #FFF5F7;
   --color-white: #FFFFFF;
-  --color-ribbon: #FF3B6E;
+  --color-ribbon: #FF2442;
   --color-mint: #B8E6C8;
   --color-lavender: #E8D5F5;
   --color-text-dark: #4A4A4A;
@@ -31,7 +32,7 @@ html {
 
 body {
   font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  background: linear-gradient(135deg, #FFF0F5 0%, #FFE4EC 50%, #FFF0F5 100%);
+  background: linear-gradient(135deg, #FFF5F7 0%, #FFE4EC 50%, #FFF5F7 100%);
   color: #4A4A4A;
   min-height: 100vh;
   overflow-x: hidden;
@@ -46,7 +47,7 @@ body {
 
 /* Scrollbar */
 ::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: #FFF0F5; }
+::-webkit-scrollbar-track { background: #FFF5F7; }
 ::-webkit-scrollbar-thumb { background: #FFD1DC; border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: #FF85A2; }
 
@@ -109,7 +110,7 @@ body {
   background: white;
   color: #FF85A2;
 }
-.btn-outline-pink:hover { background: #FFF0F5; }
+.btn-outline-pink:hover { background: #FFF5F7; }
 
 .btn-ghost {
   display: inline-flex;
@@ -151,13 +152,13 @@ body {
   border-radius: 12px;
   font-size: 0.75rem;
   font-weight: 500;
-  background: #FFF0F5;
+  background: #FFF5F7;
   color: #FF85A2;
   border: 1px solid #FFD1DC;
 }
 .tag-mint { background: #B8E6C8; color: #2D6A4F; border-color: #B8E6C8; }
 .tag-lavender { background: #E8D5F5; color: #6B3FA0; border-color: #E8D5F5; }
-.tag-ribbon { background: #FF3B6E; color: white; border-color: #FF3B6E; }
+.tag-ribbon { background: #FF2442; color: white; border-color: #FF2442; }
 
 /* Badge */
 .badge {
@@ -195,8 +196,8 @@ body {
 
 /* Checkbox circle */
 .circle-checkbox {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   border: 2px solid #FFD1DC;
   display: flex;

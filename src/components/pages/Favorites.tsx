@@ -46,7 +46,7 @@ export default function Favorites() {
           <button
             key={t.id}
             onClick={() => setTab(t.id)}
-            className={`tab-underline flex-shrink-0 px-4 py-2 rounded-btn text-sm font-medium transition-all ${
+            className={`tab-underline flex-shrink-0 px-4 py-2.5 rounded-btn text-sm font-medium transition-all min-h-[44px] ${
               tab === t.id
                 ? "bg-pink text-white shadow-pink active"
                 : "bg-white text-text-dark border border-light-pink"

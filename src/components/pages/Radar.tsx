@@ -156,8 +156,8 @@ export default function Radar() {
       <div className="flex items-center justify-between">
         <h2 className="text-xl font-bold text-ribbon">📡 资讯雷达</h2>
         <div className="flex gap-1">
-          <button onClick={() => setViewMode("card")} className={`px-3 py-1.5 rounded-btn text-xs font-medium transition-all ${viewMode === "card" ? "bg-pink text-white shadow-pink" : "bg-white text-text-dark border border-light-pink"}`}>卡片</button>
-          <button onClick={() => setViewMode("timeline")} className={`px-3 py-1.5 rounded-btn text-xs font-medium transition-all ${viewMode === "timeline" ? "bg-pink text-white shadow-pink" : "bg-white text-text-dark border border-light-pink"}`}>时间线</button>
+          <button onClick={() => setViewMode("card")} className={`px-3 py-2 rounded-btn text-xs font-medium transition-all min-h-[44px] ${viewMode === "card" ? "bg-pink text-white shadow-pink" : "bg-white text-text-dark border border-light-pink"}`}>卡片</button>
+          <button onClick={() => setViewMode("timeline")} className={`px-3 py-2 rounded-btn text-xs font-medium transition-all min-h-[44px] ${viewMode === "timeline" ? "bg-pink text-white shadow-pink" : "bg-white text-text-dark border border-light-pink"}`}>时间线</button>
         </div>
       </div>
 
@@ -178,7 +178,7 @@ export default function Radar() {
       <div className="flex gap-2 overflow-x-auto pb-2">
         {CATEGORY_LABELS.map(({ key, label, emoji }) => (
           <button key={key} onClick={() => { setCategory(key); setVisibleCount(ITEMS_PER_PAGE); }}
-            className={`flex-shrink-0 px-4 py-2 rounded-btn text-sm font-medium transition-all ${category === key ? "bg-pink text-white shadow-pink" : "bg-white text-text-dark border border-light-pink"}`}>
+            className={`flex-shrink-0 px-4 py-2.5 rounded-btn text-sm font-medium transition-all min-h-[44px] ${category === key ? "bg-pink text-white shadow-pink" : "bg-white text-text-dark border border-light-pink"}`}>
             {emoji} {label}
           </button>
         ))}

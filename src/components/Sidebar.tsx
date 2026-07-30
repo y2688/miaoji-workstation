@@ -33,7 +33,7 @@ export default function Sidebar({ open, currentPage, onNavigate, onClose }: Prop
         <nav className="flex flex-col gap-1">
           {navItems.map(({ page, label, emoji }) => (
             <button key={page} onClick={() => onNavigate(page)}
-              className={`flex items-center gap-3 px-3 py-2.5 rounded-btn text-left text-sm transition-all ${
+              className={`flex items-center gap-3 px-3 py-3 rounded-btn text-left text-sm transition-all min-h-[44px] ${
                 currentPage === page
                   ? "bg-pink text-white font-semibold shadow-pink"
                   : "text-text-dark hover:bg-bg-pink"
@@ -56,7 +56,7 @@ export default function Sidebar({ open, currentPage, onNavigate, onClose }: Prop
         <nav className="flex flex-col gap-1">
           {navItems.map(({ page, label, emoji }) => (
             <button key={page} onClick={() => onNavigate(page)}
-              className={`flex items-center gap-3 px-3 py-2.5 rounded-btn text-left text-sm transition-all ${
+              className={`flex items-center gap-3 px-3 py-3 rounded-btn text-left text-sm transition-all min-h-[44px] ${
                 currentPage === page
                   ? "bg-pink text-white font-semibold shadow-pink"
                   : "text-text-dark hover:bg-bg-pink"

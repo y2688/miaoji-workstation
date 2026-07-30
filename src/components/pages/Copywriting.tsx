@@ -56,7 +56,7 @@ export default function Copywriting() {
       <div className="flex gap-2 overflow-x-auto pb-2">
         <button
           onClick={() => setPlatform("all")}
-          className={`tab-underline flex-shrink-0 px-4 py-2 rounded-btn text-sm font-medium transition-all ${
+          className={`tab-underline flex-shrink-0 px-4 py-2.5 rounded-btn text-sm font-medium transition-all min-h-[44px] ${
             platform === "all" ? "bg-pink text-white shadow-pink active" : "bg-white text-text-dark border border-light-pink"
           }`}
         >
@@ -66,7 +66,7 @@ export default function Copywriting() {
           <button
             key={p.id}
             onClick={() => setPlatform(p.id)}
-            className={`tab-underline flex-shrink-0 px-4 py-2 rounded-btn text-sm font-medium transition-all ${
+            className={`tab-underline flex-shrink-0 px-4 py-2.5 rounded-btn text-sm font-medium transition-all min-h-[44px] ${
               platform === p.id ? "bg-pink text-white shadow-pink active" : "bg-white text-text-dark border border-light-pink"
             }`}
           >

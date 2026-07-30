@@ -2,7 +2,7 @@ name: Radar Data Fetch
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -19,4 +19,5 @@ jobs:
           git config user.name "MiaoJi Radar Bot"
           git config user.email "radar@miaoji.app"
           git add public/data/radar/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: radar data update $(date +%F-%H)" && git push)
+          git diff --quiet && git diff --staged --quiet || \
+            (git commit -m "chore: radar data update $(date +%F-%H)" && git push)

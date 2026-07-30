@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "industry": [
     {
       "id": "industry-1",
@@ -50,6 +50,106 @@
       "publishDate": "2026-07-20",
       "tags": ["汉方药", "国际", "市场"],
       "category": "event"
+    },
+    {
+      "id": "industry-6",
+      "title": "中医药文化进校园三年行动计划公布，覆盖全国十万所中小学",
+      "summary": "教育部与国家中医药管理局联合发布方案，2027年前在全国中小学开设中医药文化实践课程，培养青少年健康素养。",
+      "source": "人民网健康频道",
+      "sourceUrl": "http://health.people.com.cn/",
+      "publishDate": "2026-07-30",
+      "tags": ["政策", "教育", "中医药文化"],
+      "category": "policy"
+    },
+    {
+      "id": "industry-7",
+      "title": "夏季三伏灸热潮持续，全国艾草种植面积同比扩大30%",
+      "summary": "受三伏贴和艾灸市场需求激增影响，河南南阳、湖北蕲春等主产区艾草种植面积大幅增长，优质艾叶供不应求。",
+      "source": "中国中医药网",
+      "sourceUrl": "http://www.cncm.com.cn/",
+      "publishDate": "2026-07-27",
+      "tags": ["艾草", "三伏灸", "产业"],
+      "category": "event"
+    },
+    {
+      "id": "industry-8",
+      "title": "WHO首次将八段锦列入传统医学推荐运动指南",
+      "summary": "世界卫生组织更新《传统与补充医学全球报告》，八段锦和太极拳作为低风险高效能运动被重点推荐，适用于慢性病管理。",
+      "source": "世界卫生组织",
+      "sourceUrl": "https://www.who.int/",
+      "publishDate": "2026-07-24",
+      "tags": ["八段锦", "WHO", "国际推广"],
+      "category": "academic"
+    },
+    {
+      "id": "industry-9",
+      "title": "小红书中医养生相关笔记超2亿篇，平台推出创作者扶持计划",
+      "summary": "小红书发布2026上半年趋势报告，中医养生类内容同比增长65%，平台推出流量扶持和认证通道助力中医博主成长。",
+      "source": "36氪",
+      "sourceUrl": "https://36kr.com/",
+      "publishDate": "2026-07-26",
+      "tags": ["小红书", "创作者", "趋势"],
+      "category": "event"
+    },
+    {
+      "id": "industry-10",
+      "title": "中药饮片数字化溯源系统全国铺开，扫二维码即可追溯来源",
+      "summary": "国家药监局推进中药饮片全链条追溯体系建设，消费者扫码即可查看种植、加工、检验全程信息，2027年实现全覆盖。",
+      "source": "新华网",
+      "sourceUrl": "https://www.xinhuanet.com/",
+      "publishDate": "2026-07-23",
+      "tags": ["中药", "溯源", "数字化"],
+      "category": "academic"
+    },
+    {
+      "id": "industry-11",
+      "title": "三伏天中暑急救指南发布：中医刮痧和揪痧纳入专家共识",
+      "summary": "中国中西医结合学会发布中暑防治共识，首次将刮痧、揪痧等中医外治法列为轻中度中暑推荐干预手段。",
+      "source": "健康报",
+      "sourceUrl": "https://www.jkb.com.cn/",
+      "publishDate": "2026-07-21",
+      "tags": ["中暑", "刮痧", "急救"],
+      "category": "academic"
+    },
+    {
+      "id": "industry-12",
+      "title": "国家卫健委：社区中医馆数量突破5万家，基层服务能力显著提升",
+      "summary": "截至2026年6月，全国社区卫生服务中心和乡镇卫生院中医馆设置率达到98.7%，针灸推拿等适宜技术覆盖率大幅提升。",
+      "source": "人民网健康频道",
+      "sourceUrl": "http://health.people.com.cn/",
+      "publishDate": "2026-07-19",
+      "tags": ["社区中医馆", "基层医疗", "政策"],
+      "category": "policy"
+    },
+    {
+      "id": "industry-13",
+      "title": "中国中医科学院发布2026夏季养生指南：清热祛湿为核心",
+      "summary": "指南针对今年夏季闷热多雨特点，提出清热、祛湿、健脾三大养生原则，推荐荷叶冬瓜汤等食疗方并给出分体质建议。",
+      "source": "中国中医药网",
+      "sourceUrl": "http://www.cncm.com.cn/",
+      "publishDate": "2026-07-18",
+      "tags": ["夏季养生", "指南", "食疗"],
+      "category": "academic"
+    },
+    {
+      "id": "industry-14",
+      "title": "故宫中医药文物展开放：展出御用药方和清代宫廷养生档案",
+      "summary": "故宫博物院推出'皇家养生——清代宫廷中医药特展'，首次公开展示慈禧太后药膳配方和御医诊疗记录，引发现场排队热潮。",
+      "source": "新华网",
+      "sourceUrl": "https://www.xinhuanet.com/",
+      "publishDate": "2026-07-17",
+      "tags": ["故宫", "文物", "宫廷养生"],
+      "category": "event"
+    },
+    {
+      "id": "industry-15",
+      "title": "国际针灸师资格考试新增40考点，海外中医学习人数创新高",
+      "summary": "世界针灸学会联合会宣布全球新增40个考试中心，海外注册针灸师总数突破20万，美国、德国、澳大利亚增长最快。",
+      "source": "世界针灸学会联合会",
+      "sourceUrl": "https://www.wfas.org.cn/",
+      "publishDate": "2026-07-15",
+      "tags": ["针灸", "国际", "资格考试"],
+      "category": "academic"
     }
   ],
   "trending": [
@@ -97,6 +197,51 @@
       "url": "https://www.douyin.com/search/五行穿衣",
       "category": "五行穿搭",
       "tags": ["五行", "穿搭", "命理"]
+    },
+    {
+      "id": "trending-6",
+      "title": "大暑后的祛湿食谱：三天身体轻了三斤",
+      "platform": "xiaohongshu",
+      "hotCount": 14800000,
+      "url": "https://www.xiaohongshu.com/search_result/大暑祛湿",
+      "category": "食疗",
+      "tags": ["大暑", "祛湿", "食谱", "夏季"]
+    },
+    {
+      "id": "trending-7",
+      "title": "每天八段锦跟练打卡第30天实录，身体变化太明显",
+      "platform": "douyin",
+      "hotCount": 11200000,
+      "url": "https://www.douyin.com/search/八段锦打卡",
+      "category": "养生运动",
+      "tags": ["八段锦", "打卡", "跟练"]
+    },
+    {
+      "id": "trending-8",
+      "title": "中医体质自测：伸出舌头就能看出你哪里虚",
+      "platform": "bilibili",
+      "hotCount": 8900000,
+      "url": "https://www.bilibili.com/search?keyword=舌诊自测",
+      "category": "中医诊断",
+      "tags": ["舌诊", "体质", "自测"]
+    },
+    {
+      "id": "trending-9",
+      "title": "办公室带养生壶被围观了：打工人低成本养生装备清单",
+      "platform": "xiaohongshu",
+      "hotCount": 7900000,
+      "url": "https://www.xiaohongshu.com/search_result/办公室养生",
+      "category": "养生装备",
+      "tags": ["办公室", "打工人", "养生壶", "种草"]
+    },
+    {
+      "id": "trending-10",
+      "title": "立秋倒计时：入秋第一碗银耳羹准备起来",
+      "platform": "douyin",
+      "hotCount": 6800000,
+      "url": "https://www.douyin.com/search/立秋养生",
+      "category": "节令养生",
+      "tags": ["立秋", "银耳", "润肺"]
     }
   ],
   "jieqi": [
@@ -129,18 +274,63 @@
         "direction": "西方",
         "advice": "今日宜穿白色或金色衣物，白色入肺，与秋季金行相应"
       }
+    },
+    {
+      "id": "jieqi-3",
+      "jieqi": "处暑",
+      "date": "2026-08-23",
+      "tip": "处暑暑气渐消，但秋燥渐起。早晚温差加大，宜养阴润燥、调整作息。此时养生重点从祛暑转向防燥。'处暑十八盆'——还需洗十八天澡才真正凉快。",
+      "food": ["鸭肉", "百合", "银耳", "莲子", "山药", "蜂蜜"],
+      "recipe": "百合莲子银耳鸭汤：老鸭半只焯水、百合30g、莲子20g、银耳15g、红枣5颗，文火煲2小时",
+      "avoid": ["辛辣刺激", "过度贪凉", "忽视早晚温差"],
+      "fiveElement": {
+        "element": "金",
+        "color": "白色、金色",
+        "direction": "西方",
+        "advice": "处暑入秋季，金行渐旺。宜穿白色或金色衣物，顺应肺气收敛之势"
+      }
+    },
+    {
+      "id": "jieqi-4",
+      "jieqi": "白露",
+      "date": "2026-09-07",
+      "tip": "白露秋风夜，一夜凉一夜。白露后不宜露体，注意足部和腹部保暖。秋燥加重，宜润肺养阴、滋阴润燥。'白露身不露'——穿袜子、不露肚脐是关键。",
+      "food": ["梨", "白萝卜", "银耳", "山药", "核桃", "蜂蜜"],
+      "recipe": "白萝卜雪梨水：白萝卜200g切片、雪梨1个去核切块、冰糖适量，煮水20分钟，润肺止咳佳品",
+      "avoid": ["赤脚踩凉地", "露肚脐和脚踝", "过度晨练汗出当风"],
+      "fiveElement": {
+        "element": "金",
+        "color": "白色、米白、银色",
+        "direction": "西方",
+        "advice": "白露金行更盛，白色入肺。宜穿白色系衣物配暖色内搭，兼顾润肺与保暖"
+      }
+    },
+    {
+      "id": "jieqi-5",
+      "jieqi": "秋分",
+      "date": "2026-09-22",
+      "tip": "秋分昼夜均，寒暑平。此后阴气渐胜，养生重在收敛——少辛辣、多酸甘、早睡早起。秋分是调理脾胃的关键节点，为冬季进补打好基础。此时情绪容易低落，注意调节。",
+      "food": ["南瓜", "板栗", "山药", "莲藕", "红枣", "银耳"],
+      "recipe": "南瓜山药小米粥：南瓜200g切块、山药100g去皮切段、小米80g，煮至绵软，加红枣5颗，健脾养胃温润不腻",
+      "avoid": ["情绪大起大落", "过量辛辣油腻", "熬夜晚起破坏生物钟"],
+      "fiveElement": {
+        "element": "金",
+        "color": "白色、金色、米白",
+        "direction": "西方",
+        "advice": "秋分阴阳平衡，白色与大地色搭配最为和谐。金行主收敛，穿搭宜简约不张扬"
+      }
     }
   ],
   "fiveElements": {
-    "today": "2026-07-30",
-    "dayGanZhi": "乙酉日",
-    "dayElement": "金",
-    "luckyColors": ["白色", "金色", "银色"],
-    "avoidColors": ["红色", "紫色"],
-    "dressAdvice": "今日乙酉日属金，穿白色/金色衣物最旺运，避免穿红色系",
-    "auspiciousDirection": "西方",
-    "activities": ["签约", "出行", "学习", "针灸艾灸"],
-    "avoidActivities": ["动土", "搬家"]
+    "today": "2026-07-31",
+    "dayGanZhi": "丙申日",
+    "dayElement": "火",
+    "luckyColors": ["红色", "粉色", "紫色", "橙色"],
+    "avoidColors": ["黑色", "深蓝"],
+    "dressAdvice": "今日丙申日属火，穿红色/粉色/紫色衣物最旺运，避免穿黑色和深蓝色",
+    "auspiciousDirection": "西南",
+    "activities": ["表达分享", "运动出汗", "写作创作", "社交活动"],
+    "avoidActivities": ["急躁冲动", "过度思虑"]
   },
-  "updatedAt": "2026-07-30T15:00:00Z"
+  "updatedAt": "2026-07-31T00:00:00Z"
 }

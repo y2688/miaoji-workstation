@@ -71,7 +71,7 @@ export default function DailyPlan() {
           <div className="flex items-center justify-between mb-1">
             <h3 className="text-sm font-semibold text-text-gray">已完成 ({completed.length})</h3>
             <button
-              className="text-xs text-ribbon hover:underline"
+              className="text-xs text-ribbon hover:underline min-h-[44px] flex items-center px-2"
               onClick={clearCompleted}
             >
               清空已完成

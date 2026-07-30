@@ -80,7 +80,7 @@ export default function StudyZone() {
           <button
             key={c.id}
             onClick={() => setActiveCategory(c.id)}
-            className={`tab-underline flex-shrink-0 px-4 py-2 rounded-btn text-sm font-medium transition-all ${
+            className={`tab-underline flex-shrink-0 px-4 py-2.5 rounded-btn text-sm font-medium transition-all min-h-[44px] ${
               activeCategory === c.id
                 ? "bg-pink text-white shadow-pink active"
                 : "bg-white text-text-dark border border-light-pink hover:bg-bg-pink"
