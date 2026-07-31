@@ -1,4 +1,4 @@
-﻿import type { FiveElementsDaily } from "../types/radar";
+import type { FiveElementsDaily } from "../types/radar";
 
 export const tiangan: Record<string, { element: string; yinYang: string }> = {
   甲: { element: "木", yinYang: "阳" },
